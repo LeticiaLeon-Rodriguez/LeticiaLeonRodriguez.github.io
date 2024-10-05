@@ -162,17 +162,7 @@ input[type="text"] {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* center image on index page */
-
-.about-image {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.about-image img {
-  display: block;
-  margin: 0 auto;
-}
+/* */
 
 .blog-post {
   border: 2px solid #ccc;
@@ -252,6 +242,8 @@ ul.course-list li {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+ 
+/* add image and text in box to home page */
 
 .about {
   display: flex; 
@@ -272,3 +264,33 @@ ul.course-list li {
   flex: 2; 
   margin-top: 10px;
 }
+
+/* portfolio box*/
+
+.project {
+    display: flex; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .project img {
+    max-width: 250px; 
+    height: 250px; 
+    margin-right: 20px; 
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+  }
+  
+  .project-name,
+  .project-description {
+    margin: 5px 0; 
+  }
+  
