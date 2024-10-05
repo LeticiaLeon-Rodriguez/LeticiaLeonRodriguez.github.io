@@ -105,6 +105,18 @@ input[type="text"] {
   width: 100%;
 }
 
+.page-logo a {
+    color: white; /* Set initial color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .page-logo a:hover {
+    color: rgb(109, 109, 109); /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the logo on hover */
+  }
+  
+
 #contact-form {
   width: 100%;
   max-width: 500px;
