@@ -86,3 +86,24 @@ input[type="text"] {
   height: 25%;
   width: 60%;
 }
+
+.nav-list li a {
+  text-decoration: none; /* Remove default underline */
+  position: relative; /* Allows positioning the bar */
+  padding-bottom: 5px; /* Adds space between text and bar */
+}
+
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(109, 109, 109); /* Set the color of the bar */
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+.nav-list li a:hover::after {
+  width: 100%; /* Expands the bar on hover */
+}
