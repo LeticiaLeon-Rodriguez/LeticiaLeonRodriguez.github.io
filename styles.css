@@ -68,6 +68,8 @@ main {
   height: 2.5rem;
 }
 
+/* */
+
 p {
   font-family: "Franklin Gothic Medium";
   font-weight: lighter;
@@ -83,6 +85,8 @@ input[type="text"] {
   height: 25%;
   width: 60%;
 }
+
+/* add hover to nav bar */
 
 .nav-list li a {
   text-decoration: none;
@@ -115,6 +119,8 @@ input[type="text"] {
   color: rgb(109, 109, 109);
   transform: scale(1.05);
 }
+
+/* contain things in boxes on contact page*/
 
 #contact-form {
   width: 100%;
@@ -152,6 +158,7 @@ input[type="text"] {
 #contact-info {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -162,7 +169,7 @@ input[type="text"] {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* */
+/* add boxes to blog posts */
 
 .blog-post {
   border: 2px solid #ccc;
@@ -173,6 +180,8 @@ input[type="text"] {
   max-width: 900px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* make resume prettier */
 
 a[download] {
   display: inline-block;
@@ -242,55 +251,54 @@ ul.course-list li {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
- 
+
 /* add image and text in box to home page */
 
 .about {
-  display: flex; 
-  border: 2px solid #ccc; 
-  border-radius: 8px; 
-  padding: 20px; 
-  margin: 20px 0; 
-  background-color: #f9f9f9; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-image {
-  flex: 1; 
-  padding-right: 20px; 
+  flex: 1;
+  padding-right: 20px;
 }
 
 .about-text {
-  flex: 2; 
+  flex: 2;
   margin-top: 10px;
 }
 
 /* portfolio box*/
 
 .project {
-    display: flex; 
-    border: 2px solid #ccc; 
-    border-radius: 8px; 
-    padding: 20px; 
-    margin: 20px 0; 
-    background-color: #f9f9f9; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  }
-  
-  .project img {
-    max-width: 250px; 
-    height: 250px; 
-    margin-right: 20px; 
-  }
-  
-  .project-details {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-  }
-  
-  .project-name,
-  .project-description {
-    margin: 5px 0; 
-  }
-  
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-name,
+.project-description {
+  margin: 5px 0;
+}
