@@ -106,16 +106,15 @@ input[type="text"] {
 }
 
 .page-logo a {
-    color: white; /* Set initial color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-  }
-  
-  .page-logo a:hover {
-    color: rgb(109, 109, 109); /* Change color on hover */
-    transform: scale(1.05); /* Slightly enlarge the logo on hover */
-  }
-  
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.page-logo a:hover {
+  color: rgb(109, 109, 109);
+  transform: scale(1.05);
+}
 
 #contact-form {
   width: 100%;
@@ -242,4 +241,14 @@ ul.course-list li {
   margin-bottom: 5px;
   display: inline-block;
   margin-right: 10px;
+}
+
+.resume-box {
+  max-width: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
