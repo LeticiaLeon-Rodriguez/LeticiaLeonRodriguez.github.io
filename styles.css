@@ -148,3 +148,14 @@ input[type="text"] {
   margin-right: auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* center image on index page */
+.about-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-image img {
+  display: block;
+  margin: 0 auto;
+}
